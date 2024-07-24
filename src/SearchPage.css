@@ -1,0 +1,72 @@
+/* SearchPage.css */
+.search-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .coin-details {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    background-color: #f9f9f9;
+  }
+  
+  .coin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 30%;
+    border-right: 1px solid #ddd;
+  }
+  
+  .coin-info img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
+  .coin-info h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .coin-details-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .coin-details-info p {
+    margin: 10px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

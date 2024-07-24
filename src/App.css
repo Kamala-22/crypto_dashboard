@@ -1,0 +1,98 @@
+
+
+
+ .App h1 {
+  color: #d2d0e9;
+  margin-bottom: 10px;
+   /* Reduce margin below the heading */
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
+
+.coin-search {
+  display: block;
+  margin-bottom: 30px; /* Reduce margin below the search bar */
+  margin-top: -4.5%;/*to move search bos  near currency heading*/
+  margin-left: 38%;
+}
+
+.coin-input {
+  padding: 5px;
+  font-size: 15px;
+  width: 30%;
+  height: 20% ;
+  /* margin-bottom: 50px; */
+}
+
+.pagination {
+  margin: 20px 0;
+  margin-left: 30%; /* to move that page numbers */
+}
+
+.page-item {
+  margin: 0 3px;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+}
+
+.page-item.active {
+  background-color: #6262fe;
+  color: white;
+}
+
+
+
+/* .pagination {
+  margin: 20px 0;
+  margin-left: 30%;
+}
+
+.page-item {
+  margin: 0 3px;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+}
+
+.page-item.active {
+  background-color: #6262fe;
+  color: white;
+} */
+
+coin-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.market-cap {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+

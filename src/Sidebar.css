@@ -1,0 +1,62 @@
+
+/* Sidebar.css */
+
+
+ .sidebar {
+  background-color: rgba(71, 68, 78, 0.671);
+  padding: 10px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+
+} 
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0;
+}
+
+.sidebar div {
+  margin: 10px 0;
+}
+
+
+.sidebar button {
+  color: rgb(241, 243, 248);
+  background: none;
+  /* border: none; */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.sidebar button:hover {
+  color: hsl(54, 94%, 86%); 
+}
+
+
+
+.dropdown  li{ 
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.dropdown a {
+  text-align-last: left;
+  width: 100%;
+  background-color: rgb(237, 232, 225);
+  color: rgb(192, 19, 108);
+  padding:5px 0;
+  padding-right: 10px;
+  text-underline-offset: 3px ;
+  text-decoration-color: rgb(234, 58, 93);
+  text-decoration-thickness: 2px;
+}   

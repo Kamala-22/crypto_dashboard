@@ -1,0 +1,137 @@
+/* .paginated-coin-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 55, 57);
+    padding: 30px 10px;
+    margin-left: 30%;
+  }
+  
+  .paginated-coin-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+  }
+  
+  .paginated-coin-detail {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: rgba(35, 4, 4, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .paginated-coin-detail img {
+    max-width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .paginated-coin-detail:hover {
+    transform: scale(1.23);
+    background-color: rgba(17, 16, 16, 0.2);
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: rgba(26, 24, 24, 0.8);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: rgba(100, 100, 100, 0.5);
+    cursor: not-allowed;
+  }
+   */
+
+   .paginated-coin-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(53, 53, 56);
+    padding: 30px 10px;
+    width: 200px; /* Adjust width as needed */
+    margin-left: 104%; /* Adjust to fit beside the graph */
+    margin-top: -108.7%;
+    border-radius: 10px;
+    /* position: fixed; */
+    right: 0;
+
+    
+  }
+  
+  .paginated-coin-details {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical layout */
+    gap: 10px; /* Adjust gap between items */
+   
+  }
+  
+  .paginated-coin-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 12px; /* Adjust font size as needed */
+    font-weight: 600;
+    background-color: rgba(35, 4, 4, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .paginated-coin-detail img {
+    max-width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .paginated-coin-detail:hover {
+    transform: scale(1.1);
+    background-color: rgba(17, 16, 16, 0.2);
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: rgba(26, 24, 24, 0.8);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: rgba(100, 100, 100, 0.5);
+    cursor: not-allowed;
+  }
+  
+
+  /* .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px; /* Adjust the gap between the graph and coin details */
+  /* } */
+   

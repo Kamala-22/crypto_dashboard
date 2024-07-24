@@ -1,0 +1,66 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+ body {
+  color: aliceblue;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-color: rgb(19, 7, 23);
+ 
+} 
+
+h1 {
+
+  margin-bottom: 150%;
+  font-size: 2.2em;
+  line-height: 1.1;
+}  
+/* import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './App.css';
+
+const App = () => {
+  const [coins, setCoins] = useState([]);
+
+  useEffect(() => {
+    const fetchCoinsData = async () => {
+      const options = {
+        method: 'GET',
+        url: 'https://api.coingecko.com/api/v3/coins/list',
+        headers: {
+          accept: 'application/json',
+        },
+      };
+
+      try {
+        const response = await axios.request(options);
+        console.log('Fetched Data:', response.data); // Log the fetched data to the console
+        setCoins(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchCoinsData();
+  }, []);
+
+  // Remove the return statement for rendering UI
+  return null;
+};
+
+export default App; 
